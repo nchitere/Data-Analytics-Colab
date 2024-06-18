@@ -50,7 +50,8 @@ gc = gspread.authorize(creds)
 
 # @title
 # Provide url of the G-Sheet where data is
-sheet_url = 'https://docs.google.com/spreadsheets/d/1wf2AjyAvjCOsEUFBK8zX3rDcbJ7LXgasyBLgLWFdewY/edit#gid=113459845'
+# googlesheet ID truncated for data protection purposes
+sheet_url = 'https://docs.google.com/spreadsheets/d/.....'
 
 # @title
 # Read in moh curriculum baseline data from google drive
